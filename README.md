@@ -33,7 +33,7 @@ Requirements:
 3. Execute `gvm help` to get started!
 
 ### Via short script
-1. Execute `(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/flofreud/posh-gvm/master/GetPoshGvm.ps1') | iex`
+1. Execute `(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/azusa/posh-gvm/master/GetPoshGvm.ps1') | iex`
 2. Execute `Import-Module posh-gvm`(best add it to your profile.ps1)
 3. Execute `gvm help` to get started!
 
@@ -55,7 +55,7 @@ How to update depends on how you installed posh-gvm:
 
 #### Via short Script
 
-	(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/flofreud/posh-gvm/master/GetPoshGvm.ps1') | iex
+	(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/azusa/posh-gvm/master/GetPoshGvm.ps1') | iex
 
 #### Classic way
 Go to the checkout location and pull the repository.

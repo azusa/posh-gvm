@@ -3,7 +3,7 @@
 #>
 
 function Install-Posh-Gvm() {
-    $poshGvmZipUrl = 'https://github.com/flofreud/posh-gvm/archive/master.zip'
+    $poshGvmZipUrl = 'https://github.com/azusa/posh-gvm/archive/master.zip'
 
     $poshGvmPath = Find-Module-Location
 
