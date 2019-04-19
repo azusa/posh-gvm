@@ -1,3 +1,6 @@
+ **This repository is a folk fron [flofreud/posh-gvm
+](https://github.com/flofreud/posh-gvm) and merged a pull request [Updates to work with sdkman API v2 #34](https://github.com/flofreud/posh-gvm/pull/34).**
+
 Considering that I'm not delivering software anymore on a maschine running Windows since early 2016 I'm not using posh-gvm anymore. It seems like it's mostly still working but clearly an active maintainer would be helpful. It's so old that the orginial projects was renamed and did grow quiet a bit over the functionality provided for Powershell. If anyone wants to pick up...
 
 # posh-gvm - the POwerSHell Groovy enVironment Manager
@@ -7,7 +10,7 @@ For further information about the features of GVM please the documentation on th
 
 Posh-GVM consumes the REST-API of the offical GVM CLI and may therefore break if the API will be changed in future.
 
-Please report any bugs and feature request on the [GitHub Issue Tracker](https://github.com/flofreud/posh-gvm/issues).
+Please report any bugs and feature request on the [GitHub Issue Tracker](https://github.com/azusa/posh-gvm/issues).
 
 ## ATTENTION - Always offline and selfupdate Issue
 Recently the used url for the API endpoint got drop so that the posh-gvm thinks there is always a connection issue. The newest available version uses the new API endpoint but due to the expected connection issue the update has to be done manually.
@@ -27,7 +30,7 @@ You have multiple choices for installation of posh-gvm:
 Requirements:
 - Powershell 3.0+ (included in Windows 8+/Windows Server 2012+, for Windows 7 install Windows Management Framework 3.0)
 
-### With PsGet
+### With PsGet(outdated)
 1. Execute `Install-Module posh-gvm`
 2. Execute `Import-Module posh-gvm`(best add it to your profile.ps1)
 3. Execute `gvm help` to get started!
